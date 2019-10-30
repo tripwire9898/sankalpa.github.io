@@ -11,7 +11,7 @@ nav{
  align-items: center;
  min-height: 10vh;
  background-color: #16161d;
- font-family : 'Lato',sans-serif;
+ font-family: 'Red Hat Display', sans-serif;
 }
 .logo{
  width:7%;
@@ -24,7 +24,7 @@ nav{
 .nav-links a{
   text-decoration: none;
    color: whitesmoke;
- font-size: 15px;
+ font-size: 12px;
 }
 .nav-links li{
  list-style: none;
@@ -42,7 +42,7 @@ nav{
  display: none;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 800px){
 
   .nav-links{
     position: absolute;
