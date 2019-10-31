@@ -1,13 +1,12 @@
-const navSlide= ()=> {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.nav-links');
+const navSlide = () => {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
 
-
-    burger.addEventListener('click', () =>{
-         //Toggle Nav
-        nav.classList.toggle('nav-active');
-        //burger-animation
-        burger.classList.toggle('cross');
-    });
-}
+  burger.addEventListener("click", () => {
+    //Toggle Nav
+    nav.classList.toggle("nav-active");
+    //burger-animation
+    burger.classList.toggle("cross");
+  });
+};
 navSlide();
