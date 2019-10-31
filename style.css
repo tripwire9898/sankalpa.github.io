@@ -42,7 +42,7 @@ nav {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 5000px) {
+@media screen and (max-width: 5000px) {
   .nav-links {
     position: absolute;
     right: 0px;
@@ -78,7 +78,7 @@ nav {
 }
 
 /* scrollbar-customisation */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 10px;
 }
 
@@ -94,4 +94,4 @@ nav {
 ::-webkit-scrollbar-thumb:hover {
   border-radius: 10px;
   background-color: #e25822;
-}
+} */
