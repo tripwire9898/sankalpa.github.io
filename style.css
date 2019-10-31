@@ -32,17 +32,17 @@ nav {
   font-size: 15px;
 }
 .burger div {
-  width: 25px;
-  height: 2px;
+  width: 50px;
+  height: 4px;
   background-color: whitesmoke;
-  margin: 5px;
+  margin: 10px;
 }
 .burger {
   display: none;
   cursor: pointer;
 }
 
-@media screen and (max-width: 5000px) {
+@media screen and (max-width: 800px) {
   .nav-links {
     position: absolute;
     right: 0px;
