@@ -135,7 +135,7 @@ img{
   left: 0;
   z-index: var(--z-fixed);
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146,161,176,.15);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5);;
 }
 
 /*===== NAV =====*/
@@ -289,7 +289,7 @@ img{
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  box-shadow: 0 4px 25px rgba(0,0,0,0.5);;
 }
 .skills__icon{
   font-size: 2rem;
@@ -310,7 +310,7 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 90%;
 }
 .skills__css{
   width: 85%;
@@ -330,7 +330,7 @@ img{
   row-gap: 2rem;
 }
 .work__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  box-shadow: 0 4px 25px rgba(0,0,0,0.5);
   border-radius: .5rem;
   overflow: hidden;
 }
