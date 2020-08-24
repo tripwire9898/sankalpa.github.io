@@ -9,8 +9,10 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #4070F4;
-    --second-color: #0E2431;
+    --first-color: blue;
+    // --first-color: #4070F4;
+    --second-color: yellow;
+    // --second-color: #0E2431;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -60,7 +62,7 @@ body{
     color: var(--second-color);
 }
 h1,h2,p{
-    margin: 0;  
+    margin: 0;
 }
 ul{
     margin: 0;
@@ -234,7 +236,7 @@ img{
     color: #fff;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
-    border-radius: .5rem; 
+    border-radius: .5rem;
 
     &:hover{
         box-shadow: 0px 10px 36px rgba(0,0,0,.15);
@@ -253,7 +255,7 @@ img{
 
     &__img{
         justify-self: center;
-        
+
         & img{
             width: 200px;
             border-radius: .5rem;
@@ -324,10 +326,10 @@ img{
         row-gap: 2rem;
     }
     &__img{
-        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); 
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
         border-radius: .5rem;
         overflow: hidden;
-        
+
         & img{
             transition: 1s;
             cursor: pointer;

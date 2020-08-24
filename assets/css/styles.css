@@ -1,20 +1,38 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap" rel="stylesheet");
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
   --font-semi: 600;
 }
+::-webkit-scrollbar {
+    width: 5px;
+  }
 
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #fdfdfd;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ea5455;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ea6060;
+  }
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
-  --second-color: #0E2431;
+  --first-color: #ea5455;
+  --second-color: #2d4059;
 }
 
 /*===== Fuente y tipografia =====*/
 :root{
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Montserrat', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -247,6 +265,9 @@ img{
   width: 200px;
   border-radius: .5rem;
 }
+.about__text{
+  font-weight: 100;
+}
 
 /* ===== SKILLS =====*/
 .skills__container{
@@ -439,7 +460,7 @@ img{
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1500px){
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
