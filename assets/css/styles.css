@@ -27,7 +27,7 @@
 /*===== Colores =====*/
 :root{
   --first-color: #ea5455;
-  --second-color: #2d4059;
+  --second-color: #ffffff;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -365,7 +365,7 @@ img{
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
-  color: #fff;
+  color: #17223b;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -379,7 +379,7 @@ img{
 }
 .footer__icon{
   font-size: 1.5rem;
-  color: #fff;
+  color: #263859;
   margin: 0 var(--mb-2)
 }
 
