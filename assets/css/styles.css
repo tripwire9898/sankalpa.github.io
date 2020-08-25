@@ -12,7 +12,7 @@
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #fdfdfd;
+    background: #263859;
   }
 
   /* Handle */
@@ -22,7 +22,7 @@
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #ea6060;
+    background: #aa0000;
   }
 /*===== Colores =====*/
 :root{
@@ -319,7 +319,10 @@ img{
   width: 65%;
 }
 .skills__ux{
-  width: 85%;
+  width: 95%;
+}
+.skills__c{
+  width: 70%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -387,6 +390,7 @@ img{
 @media screen and (min-width: 768px){
   body{
     margin: 0;
+    /* background-color:yellow; */
   }
   .section{
     padding-top: 4rem;
