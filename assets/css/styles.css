@@ -12,22 +12,22 @@
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #263859;
+    background: #a6f6f1;
   }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #ea5455;
+    background: #41aea9;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #aa0000;
+    background: #213e3b;
   }
 /*===== Colores =====*/
 :root{
-  --first-color: #ea5455;
-  --second-color: #ffffff;
+  --first-color: #41aea9;
+  --second-color: #213e3b;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -154,7 +154,7 @@ img{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #263859;
     transition: .5s;
   }
 }
@@ -247,6 +247,7 @@ img{
   border-radius: .5rem;
 }
 .button:hover{
+  background-color:#00587a;
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
@@ -266,7 +267,7 @@ img{
   border-radius: .5rem;
 }
 .about__text{
-  font-weight: 100;
+  font-weight: light;
 }
 
 /* ===== SKILLS =====*/
@@ -289,12 +290,12 @@ img{
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0 4px 25px rgba(0,0,0,0.5);;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.2);;
 }
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: #213e3b;
 }
 .skills__names{
   display: flex;
@@ -333,7 +334,7 @@ img{
   row-gap: 2rem;
 }
 .work__img{
-  box-shadow: 0 4px 25px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 25px rgba(0,0,0,0.3);
   border-radius: .5rem;
   overflow: hidden;
 }
@@ -465,6 +466,9 @@ img{
 }
 
 @media screen and (min-width: 1024px){
+  body{
+
+  }
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
