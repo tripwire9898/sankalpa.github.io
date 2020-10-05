@@ -24,13 +24,13 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #213e3b;
   }
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #41aea9;
   --second-color: #213e3b;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== fonts =====*/
 :root{
   --body-font: 'Montserrat', sans-serif;
   --big-font-size: 2rem;
@@ -135,8 +135,10 @@ img{
   left: 0;
   z-index: var(--z-fixed);
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.5);;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);;
 }
+/* ===== LOADER ===== */
+
 
 /*===== NAV =====*/
 .nav{
