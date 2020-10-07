@@ -1,6 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap" rel="stylesheet");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap" rel="stylesheet"); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -269,7 +270,8 @@ img{
   border-radius: .5rem;
 }
 .about__text{
-  font-weight: light;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 /* ===== SKILLS =====*/
